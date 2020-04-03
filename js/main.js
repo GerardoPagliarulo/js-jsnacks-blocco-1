@@ -129,15 +129,15 @@
 
 // Funzione
 function sommaPosizioneDispariArray(nomArray) {
-    var somma = 0;
+    var risultato = 0;
 
-    for (var i = 1; i < numInteri.length ; i += 2) {
-        var posizioneDispari = numInteri[i];
+    for (var i = 1; i < nomArray.length ; i += 2) {
+        var posizioneDispari = nomArray[i];
       
-        somma += numInteri[i];
+        risultato += nomArray[i];
     }
 
-    return somma;
+    return risultato;
 }
 
 
