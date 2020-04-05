@@ -76,25 +76,25 @@
  * Gatsby vuole generare una falsa lista di 5 invitati.
  */
 
-//  var listaNomi
-//  var listaCognomi
-//  var listaRandom 
+ //var listaNomi
+ //var listaCognomi
+ //var listaRandom 
 
-//  // Liste
-//  listaNomi = ['Michele', 'Fabio', 'Roberto'];
-//  listaCognomi = ['Forghieri', 'Papagni', 'Marazzini'];
-//  listaRandom = [];
+ // Liste
+ //listaNomi = ['Michele', 'Fabio', 'Roberto'];
+ //listaCognomi = ['Forghieri', 'Papagni', 'Marazzini'];
+ //listaRandom = [];
 
-//  for (var i = 0; i < 5; i++) {
-//      var listaNomiRandom = Math.floor( Math.random() * ((listaNomi.length -1) + 1));
-//      var listaCognomiRandom = Math.floor( Math.random() * ((listaCognomi.length - 1) + 1));
+ //for (var i = 0; i < 5; i++) {
+    //var listaNomiRandom = Math.floor( Math.random() * ((listaNomi.length -1) + 1));
+    //var listaCognomiRandom = Math.floor( Math.random() * ((listaCognomi.length - 1) + 1));
 
-//      var nuovoNomeCognome = listaNomi[listaNomiRandom] + ' ' + listaCognomi[listaCognomiRandom];
+    //var nuovoNomeCognome = listaNomi[listaNomiRandom] + ' ' + listaCognomi[listaCognomiRandom];
 
-//      listaRandom.push(nuovoNomeCognome);
-//  }
+    //listaRandom.push(nuovoNomeCognome);
+ //}
 
-//  console.log(listaRandom);
+ //console.log(listaRandom);
 
 
 
@@ -108,7 +108,7 @@
   */
 
   var numInteri
-//   var somma = 0;
+  //var somma = 0;
 
   // Array di numeri interi
   numInteri = [1, 4, 2, 15, 120, 17, 3];
@@ -117,8 +117,8 @@
   var sommaPosizioneDispari = sommaPosizioneDispariArray (numInteri);
   console.log(sommaPosizioneDispari);
 
-//   // Somma di tutti gli elementi che sono in posizione dispari
-//   for (var i = 1; i < numInteri.length ; i += 2) {
+   // Somma di tutti gli elementi che sono in posizione dispari
+//   for (var i = 1; i < numInteri.length; i += 2) {
 //       var posizioneDispari = numInteri[i];
       
 //       somma += numInteri[i];
@@ -129,15 +129,15 @@
 
 // Funzione
 function sommaPosizioneDispariArray(nomArray) {
-    var risultato = 0;
+  var risultato = 0;
 
-    for (var i = 1; i < nomArray.length ; i += 2) {
-        var posizioneDispari = nomArray[i];
-      
-        risultato += nomArray[i];
-    }
+  for (var i = 1; i < nomArray.length; i += 2) {
+  var posizioneDispari = nomArray[i];
+  
+    risultato += nomArray[i];
+  }
 
-    return risultato;
+  return risultato;
 }
 
 
